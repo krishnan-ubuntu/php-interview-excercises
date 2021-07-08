@@ -22,13 +22,13 @@ function isPalindrome($string = false)
 
 		if ($string === $invertedStr) 
 		{
-			echo 'The provided string is a planidrome';
+			echo 'The provided string is a palindrome';
 			/*or
 			return true;*/
 		}
 		else 
 		{
-			echo 'The provided string is not a planidrome';
+			echo 'The provided string is not a palindrome';
 			/*or
 			return false;*/
 		}
