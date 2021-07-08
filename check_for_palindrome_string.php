@@ -1,6 +1,6 @@
 <?php 
 /*
-This question is about cchecking if the provided string is a palindrome without using strrev
+Check if the provided string is a palindrome or not without using strrev
  */
 function isPalindrome($string = false) 
 {
