@@ -22,7 +22,7 @@ function isPalindrome($string = false)
 
 		if ($string === $invertedStr) 
 		{
-			echo 'The provided string is planidrome';
+			echo 'The provided string is a planidrome';
 			/*or
 			return true;*/
 		}
