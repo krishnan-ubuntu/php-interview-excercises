@@ -10,10 +10,10 @@ function isPalindrome($string = false)
 	}
 	else  
 	{
-		$invertedStr = '';
-		$santizedStr = sanitizeInput($string);
-		$stingArr 	 = str_split($santizedStr);
-		$stingArrLen = count($stingArr);
+		$invertedStr 	= '';
+		$santizedStr 	= sanitizeInput($string);
+		$stingArr 	 	= str_split($santizedStr);
+		$stingArrLen 	= count($stingArr);
 
 		for ($i=($stingArrLen - 1); $i >= 0; $i--) 
 		{
